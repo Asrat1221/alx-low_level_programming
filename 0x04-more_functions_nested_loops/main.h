@@ -1,3 +1,6 @@
+#ifndef FILE_MAIN
+#define FILE_MAIN
+
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
@@ -10,3 +13,4 @@ void print_square(int size);
 void print_triangle(int size);
 int _putchar(char c)
 
+#endif
